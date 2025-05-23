@@ -1,0 +1,8 @@
+name: classroom-digital-twin
+channels:
+  - conda-forge
+dependencies:
+  # add your conda dependencies here
+  - pip
+  - pip:
+      # add your pip dependencies here
