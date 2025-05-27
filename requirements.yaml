@@ -2,7 +2,11 @@ name: classroom-digital-twin
 channels:
   - conda-forge
 dependencies:
-  # add your conda dependencies here
+  - opencv=4.11.0
+  - python=3.9.22
   - pip
   - pip:
-      # add your pip dependencies here
+      - pyside6==6.9.0
+      - pyvista==0.45.2
+      - pyvistaqt==0.11.2
+      - qt-material==2.17
