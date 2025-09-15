@@ -1,4 +1,4 @@
-name: classroom-digital-twin
+name: your_env_name
 channels:
   - conda-forge
 dependencies:
