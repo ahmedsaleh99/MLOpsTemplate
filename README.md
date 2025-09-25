@@ -19,8 +19,8 @@ Before running the code, make sure you have the following installed:
 ### Clone the repository
 
    ```bash
-   git clone git@github.com:ahmedsaleh99/benchmark_oak_cam.git
-   cd benchmark_oak_cam
+   git clone git@github.com:ahmedsaleh99/MLOpsTemplate.git
+   cd MLOpsTemplate
    ```
 
 ### Set Up the Conda Environment
