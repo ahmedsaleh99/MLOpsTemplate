@@ -11,7 +11,7 @@ prod-env:
 	@echo "Removing conda environment $(ENV_NAME) if exists..."
 	@conda env remove -n $(ENV_NAME) -y --quiet || echo "Environment $(ENV_NAME) does not exist."
 	@echo "Creating conda environment with name $(ENV_NAME)..."
-	@conda env create -n $(ENV_NAME) --file $(DEP_FILE) -y -q
+	@conda env create -n $(ENV_NAME) --file $(DEP_FILE) -q
 	@echo "Environment '$(ENV_NAME)' created successfully!"
 	@echo "To activate, run: conda activate $(ENV_NAME)"
 
