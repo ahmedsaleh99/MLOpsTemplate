@@ -37,10 +37,10 @@ Alternatively, create the full development environment in one step:
 make dev-env
 ```
 
-After this, the conda environment annotation will be ready. Activate it if not already active:
+After this, the conda environment [your_env_name] will be ready. Activate it if not already active:
 
 ```bash
-conda activate annotation
+conda activate [your_env_name]
 ```
 ### Format and Lint Code
 
