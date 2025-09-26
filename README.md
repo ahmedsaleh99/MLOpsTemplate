@@ -42,6 +42,8 @@ After this, the conda environment [your_env_name] will be ready. Activate it if 
 ```bash
 conda activate [your_env_name]
 ```
+
+## Contribution Guide
 ### Format and Lint Code
 
 ```bash
