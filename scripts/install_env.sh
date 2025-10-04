@@ -42,8 +42,9 @@ echo "[install_env] mode=$mode env_name=$env_name file=$file"
 
 
 remove_env() {
+  echo "[install_env] Deactivating any active conda environment..."
   echo "[install_env] Checking if environment '$env_name' exists..."
-
+  conda deactivate 
   if conda env list | awk '{print $1}' | grep -qx "$env_name"; then
     echo "[install_env] Removing environment '$env_name'..."
     if conda env remove -n "$env_name" -y --quiet; then
