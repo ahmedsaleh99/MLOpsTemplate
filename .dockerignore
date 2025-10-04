@@ -1,0 +1,13 @@
+__pycache__/
+.git
+.github
+.venv
+.env
+*.pyc
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.idea/
+.vscode/
