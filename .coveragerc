@@ -1,0 +1,17 @@
+[run]
+source = .
+omit =
+    pyscript
+    pyscript/*
+    */pyscript
+    */pyscript/*
+    shibokensupport
+    shibokensupport/*
+    */shibokensupport
+    */shibokensupport/*
+    signature_bootstrap.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__ == "__main__": 

@@ -1,8 +1,7 @@
-name: your_env_name
 channels:
   - conda-forge
 dependencies:
-  # - python=3.9.22
+  - python=3.10
   # - pip
   - pip:
       # - some_package==6.9.0
