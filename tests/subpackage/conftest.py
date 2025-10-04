@@ -5,7 +5,7 @@ Test the top fixture with a nested fixture
 import pytest
 
 
-@pytest.fixture(scope="class")
+@pytest.fixture
 def subpackage_fixture(shared_fixture: str) -> str:
     """
     a subpackage fixture that uses the shared fixture
