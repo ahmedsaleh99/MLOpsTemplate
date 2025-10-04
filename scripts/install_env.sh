@@ -59,7 +59,7 @@ remove_env() {
 
 create_env() {
   echo "[install_env] Creating environment $env_name from $file..."
-  conda env create -n "$env_name" --file "$file" -y -q
+  conda env create -n "$env_name" --file "$file" -q
   echo "[install_env] Environment '$env_name' created successfully"
   echo "[install_env] To activate: conda activate $env_name"
 }
