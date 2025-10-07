@@ -24,7 +24,7 @@ else
 	RUN_INSTALL = sh ./scripts/install_env.sh
 endif
 
-.PHONY: prod-env  dev-env dev-depend format tests docker-build docker-push docker
+.PHONY: prod-env  dev-env dev-depend format tests docker-build docker-push docker docker-env
 
 
 prod-env:
